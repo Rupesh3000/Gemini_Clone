@@ -2,8 +2,8 @@ import React from "react";
 
 const ChatBar = () => {
   return (
-    <div className="w-full ">
-      <div className=" w-[70%] mx-auto flex flex-col h-full justify-between py-3">
+    <div className="container">
+      <div className=" mx-auto h-screen flex flex-col justify-between py-3 max-w-4xl">
         <div className="p-4 overflow-y-auto">
           <p>Your chat messages will appear here...</p>
         </div>
