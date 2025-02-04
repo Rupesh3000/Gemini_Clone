@@ -5,15 +5,15 @@ import ChatBar from "./Components/ChatBar";
 
 const App = () => {
   return (
-    <div className=" flex h-screen bg-gray-900 text-gray-100">
+    <div className=" flex  bg-gray-900 text-gray-100">
       {/* Sidebar */}
       <SideBar />
       {/* Main Content */}
-      <div className="flex flex-col flex-grow">
         <ChatBar />
-      </div>
+
     </div>
   );
 };
 
 export default App;
+
