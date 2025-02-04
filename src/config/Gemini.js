@@ -17,5 +17,5 @@ const Gemini = async (prompt) => {
   }
 };
 
-// Call the function (if you're using this in a React component, use useEffect or event handler)
+
 export default Gemini;
