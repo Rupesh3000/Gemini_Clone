@@ -12,8 +12,8 @@ const App = () => {
         <ChatBar />
 
     </div>
+    
   );
 };
 
 export default App;
-

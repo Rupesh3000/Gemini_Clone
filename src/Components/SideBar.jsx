@@ -8,7 +8,7 @@ const SideBar = () => {
 
   return (
     <div
-      className={`sidebar bg-gray-700 text-gray-100 h-screen p-4 transition-all duration-100  ${
+      className={`sidebar bg-gray-700 text-gray-100 h-screen p-4 transition-all duration-200  ${
         extended ? "w-80" : "w-16"
       }`}
     >
